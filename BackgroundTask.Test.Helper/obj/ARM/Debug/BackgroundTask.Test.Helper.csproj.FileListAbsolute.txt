@@ -1,0 +1,16 @@
+C:\MiPutoTemporal\UWP\BackgroundTask.Test.Helper\bin\ARM\Debug\BackgroundTask.Test.Helper.dll
+C:\MiPutoTemporal\UWP\BackgroundTask.Test.Helper\bin\ARM\Debug\BackgroundTask.Test.Helper.pdb
+C:\MiPutoTemporal\UWP\BackgroundTask.Test.Helper\bin\ARM\Debug\BackgroundTask.Test.Helper.pri
+C:\MiPutoTemporal\UWP\BackgroundTask.Test.Helper\obj\ARM\Debug\BackgroundTask.Test.Helper.dll
+C:\MiPutoTemporal\UWP\BackgroundTask.Test.Helper\obj\ARM\Debug\BackgroundTask.Test.Helper.pdb
+C:\MiPutoTemporal\UWP\BackgroundTask.Test.Helper\obj\ARM\Debug\priconfig.xml
+C:\MiPutoTemporal\UWP\BackgroundTask.Test.Helper\obj\ARM\Debug\priconfig.xml.intermediate
+C:\MiPutoTemporal\UWP\BackgroundTask.Test.Helper\obj\ARM\Debug\layout.resfiles
+C:\MiPutoTemporal\UWP\BackgroundTask.Test.Helper\obj\ARM\Debug\layout.resfiles.intermediate
+C:\MiPutoTemporal\UWP\BackgroundTask.Test.Helper\obj\ARM\Debug\resources.resfiles
+C:\MiPutoTemporal\UWP\BackgroundTask.Test.Helper\obj\ARM\Debug\resources.resfiles.intermediate
+C:\MiPutoTemporal\UWP\BackgroundTask.Test.Helper\obj\ARM\Debug\pri.resfiles
+C:\MiPutoTemporal\UWP\BackgroundTask.Test.Helper\obj\ARM\Debug\pri.resfiles.intermediate
+C:\MiPutoTemporal\UWP\BackgroundTask.Test.Helper\obj\ARM\Debug\qualifiers.txt
+C:\MiPutoTemporal\UWP\BackgroundTask.Test.Helper\obj\ARM\Debug\qualifiers.txt.intermediate
+C:\MiPutoTemporal\UWP\BackgroundTask.Test.Helper\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt

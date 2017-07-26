@@ -1,0 +1,4 @@
+C:\MiPutoTemporal\UWP\BackgroundTask.Test.Helper\BackgroundTask.Test.Helper.csproj;x86
+C:\MiPutoTemporal\UWP\BackgroundTask.Test.Helper\BackgroundTask.Test.Helper.csproj;x86
+C:\MiPutoTemporal\UWP\BackgroundTask.Test\BackgroundTask.Test.csproj;x86
+C:\MiPutoTemporal\UWP\MyTestTask\MyTestTask.csproj;x86

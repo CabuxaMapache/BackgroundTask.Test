@@ -1,0 +1,78 @@
+﻿<Page
+    x:Class="BackgroundTask.Test.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:UWPcontrols="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:helper="using:BackgroundTask.Test.Helper"
+    xmlns:local="using:BackgroundTask.Test"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    RequestedTheme="Dark"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <DataTemplate x:Name="ExecutionsItemTemplate" x:DataType="helper:BackgroundTaskExecResult">
+            <Grid Margin="0,6">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Text="{x:Bind Result, Mode=OneWay}" />
+                <UWPcontrols:Expander
+                    Grid.Row="1"
+                    Header="View details"
+                    IsExpanded="False">
+                    <Grid>
+                        <TextBlock Text="{x:Bind Details, Mode=OneWay}" TextWrapping="Wrap" />
+                    </Grid>
+                </UWPcontrols:Expander>
+            </Grid>
+        </DataTemplate>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <ListView
+            x:Name="ItemsListView"
+            Grid.Row="0"
+            ItemTemplate="{StaticResource ExecutionsItemTemplate}"
+            SelectionMode="None">
+            <ListView.Header>
+                <Grid>
+                    <TextBlock
+                        Margin="10,5"
+                        HorizontalAlignment="Center"
+                        FontWeight="SemiBold"
+                        Style="{ThemeResource BodyTextBlockStyle}"
+                        Text="Last executions" />
+                </Grid>
+            </ListView.Header>
+        </ListView>
+        <Button
+            x:Name="RefreshButton"
+            Grid.Row="0"
+            Margin="10"
+            HorizontalAlignment="Right"
+            VerticalContentAlignment="Bottom"
+            Click="RefreshButton_Click">
+            <TextBlock
+                FontFamily="Segoe MDL2 Assets"
+                FontSize="25"
+                Text="&#xE149;" />
+        </Button>
+        <StackPanel
+            Grid.Row="1"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Bottom">
+            <Button
+                Margin="0,6"
+                Click="Button_Click"
+                Content="Register Task" />
+            <TextBlock x:Name="RegistrationResultTextBlock" />
+        </StackPanel>
+
+    </Grid>
+</Page>
